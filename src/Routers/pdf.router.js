@@ -38,5 +38,5 @@ export default async function pdfRouter (fastify, opts) {
   fastify.get("/jobs/:jobId/results/:resultId/download", { handler: getJobResultDownload });
   fastify.put("/jobs/:jobId/status", { handler: updateJobStatus });
   fastify.post("/jobs/:jobId/results", { handler: addJobResult });
-  fastify.post("/jobs/:jobId/logs", { preHandler: requireAuth, handler: addJobLog });
+  fastify.post("/jobs/:jobId/logs", { /* preHandler: requireAuth, */ handler: addJobLog });
 };
