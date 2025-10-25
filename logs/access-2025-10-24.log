@@ -1,0 +1,211 @@
+2025-10-24T11:43:13.013Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-24T11:43:14.698Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-24T11:43:14.700Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-00.oissf.mongodb.net
+2025-10-24T11:43:14.703Z [INFO] [req:unknown] 🚀 Server running in undefined mode on port undefined
+2025-10-24T11:44:46.279Z [WARN] [req:unknown] Received SIGINT, starting graceful shutdown...
+2025-10-24T11:49:31.244Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-24T11:49:31.402Z [WARN] [req:unknown] Received SIGINT, starting graceful shutdown...
+2025-10-24T12:05:44.695Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-24T12:05:45.838Z [WARN] [req:unknown] Received SIGINT, starting graceful shutdown...
+2025-10-24T12:15:00.159Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-24T12:15:01.974Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-24T12:15:01.978Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-00.oissf.mongodb.net
+2025-10-24T12:15:01.981Z [INFO] [req:unknown] 🚀 Server running in undefined mode on port undefined
+2025-10-24T12:20:16.313Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/upload-sessions
+2025-10-24T12:20:16.350Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:20:16 GMT] "POST /api/v1/upload-sessions HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-24T12:21:14.352Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/uploads/sessions
+2025-10-24T12:21:14.353Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:21:14 GMT] "POST /api/v1/uploads/sessions HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-24T12:21:53.954Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-24T12:21:55.664Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-24T12:21:55.666Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-02.oissf.mongodb.net
+2025-10-24T12:21:55.668Z [INFO] [req:unknown] 🚀 Server running in undefined mode on port undefined
+2025-10-24T12:22:42.534Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/uploads/sessions
+2025-10-24T12:22:42.545Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:22:42 GMT] "POST /api/v1/uploads/sessions HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-24T12:27:14.861Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/uploads/sessions
+2025-10-24T12:27:14.864Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:27:14 GMT] "POST /api/v1/uploads/sessions HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-24T12:27:53.107Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/jobs
+2025-10-24T12:27:53.108Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:27:53 GMT] "POST /api/v1/jobs HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-24T12:28:34.178Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/auth/check-auth
+2025-10-24T12:28:34.179Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:28:34 GMT] "POST /api/v1/auth/check-auth HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-24T12:28:36.082Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/auth/check-auth
+2025-10-24T12:28:36.084Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:28:36 GMT] "POST /api/v1/auth/check-auth HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-24T12:28:56.056Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:28:56 GMT] "POST /api/v1/auth/signup HTTP/1.1" 500 1040 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-24T12:29:48.977Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/jobs
+2025-10-24T12:29:48.978Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:29:48 GMT] "POST /api/v1/jobs HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-24T12:30:01.174Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/jobs/9
+2025-10-24T12:30:01.176Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:30:01 GMT] "POST /api/v1/jobs/9 HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-24T12:31:25.689Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/jobs/9
+2025-10-24T12:31:25.692Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:31:25 GMT] "GET /api/v1/jobs/9 HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:31:25.876Z [WARN] [req:unknown] 404 Not Found - Path: /favicon.ico
+2025-10-24T12:31:25.878Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:31:25 GMT] "GET /favicon.ico HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:31:34.753Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/jobs/9
+2025-10-24T12:31:34.755Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:31:34 GMT] "GET /api/v1/jobs/9 HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:31:35.464Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/jobs/9
+2025-10-24T12:31:35.465Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:31:35 GMT] "GET /api/v1/jobs/9 HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:31:35.761Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/jobs/9
+2025-10-24T12:31:35.762Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:31:35 GMT] "GET /api/v1/jobs/9 HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:31:36.017Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/jobs/9
+2025-10-24T12:31:36.018Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:31:36 GMT] "GET /api/v1/jobs/9 HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:31:36.248Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/jobs/9
+2025-10-24T12:31:36.249Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:31:36 GMT] "GET /api/v1/jobs/9 HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:31:36.489Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/jobs/9
+2025-10-24T12:31:36.490Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:31:36 GMT] "GET /api/v1/jobs/9 HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:32:34.575Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-24T12:32:36.561Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-24T12:32:36.565Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-02.oissf.mongodb.net
+2025-10-24T12:32:36.568Z [INFO] [req:unknown] 🚀 Server running in undefined mode on port undefined
+2025-10-24T12:32:41.307Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/jobs/9
+2025-10-24T12:32:41.315Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:32:41 GMT] "GET /api/v1/jobs/9 HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:32:48.405Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/check
+2025-10-24T12:32:48.407Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:32:48 GMT] "GET /api/v1/check HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:37:01.781Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-24T12:37:06.109Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-24T12:37:06.113Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-01.oissf.mongodb.net
+2025-10-24T12:37:06.116Z [INFO] [req:unknown] 🚀 Server running in undefined mode on port undefined
+2025-10-24T12:39:32.261Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-24T12:39:34.454Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-24T12:39:34.456Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-01.oissf.mongodb.net
+2025-10-24T12:39:34.457Z [INFO] [req:unknown] 🚀 Server running in undefined mode on port undefined
+2025-10-24T12:39:36.056Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/check
+2025-10-24T12:39:36.068Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:39:36 GMT] "GET /api/v1/check HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:39:36.741Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/check
+2025-10-24T12:39:36.743Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:39:36 GMT] "GET /api/v1/check HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:39:37.229Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/check
+2025-10-24T12:39:37.230Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:39:37 GMT] "GET /api/v1/check HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:39:37.453Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/check
+2025-10-24T12:39:37.454Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:39:37 GMT] "GET /api/v1/check HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:39:37.661Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/check
+2025-10-24T12:39:37.663Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:39:37 GMT] "GET /api/v1/check HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:41:00.922Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/check
+2025-10-24T12:41:00.925Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:41:00 GMT] "GET /api/v1/check HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-24T12:48:46.363Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-24T12:48:48.029Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-24T12:48:48.032Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-01.oissf.mongodb.net
+2025-10-24T12:48:48.035Z [INFO] [req:unknown] 🚀 Server running in undefined mode on port 3000
+2025-10-24T12:49:03.704Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/check
+2025-10-24T12:49:03.711Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:49:03 GMT] "GET /api/v1/check HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:49:03.768Z [WARN] [req:unknown] 404 Not Found - Path: /favicon.ico
+2025-10-24T12:49:03.770Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:49:03 GMT] "GET /favicon.ico HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T12:50:47.260Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 12:50:47 GMT] "GET /check HTTP/1.1" 200 15 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T13:04:00.135Z [WARN] [req:unknown] ⚠️ Mongoose connection is disconnected.
+2025-10-24T13:04:00.143Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-24T13:10:32.515Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-24T13:10:40.130Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-24T13:10:40.132Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-01.oissf.mongodb.net
+2025-10-24T13:10:40.134Z [INFO] [req:unknown] 🚀 Server running in undefined mode on port 3000
+2025-10-24T13:11:37.566Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-24T13:12:02.926Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-24T13:12:02.930Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-02.oissf.mongodb.net
+2025-10-24T13:12:02.933Z [INFO] [req:unknown] 🚀 Server running in undefined mode on port 3000
+2025-10-24T13:12:11.270Z [WARN] [req:unknown] 404 Not Found - Path: /check
+2025-10-24T13:12:11.277Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 13:12:11 GMT] "GET /check HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T13:12:23.143Z [HTTP] [req:unknown] 127.0.0.1 - - [Fri, 24 Oct 2025 13:12:23 GMT] "GET /api/v1/check HTTP/1.1" 200 15 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+2025-10-24T13:14:09.361Z [WARN] [req:unknown] Received SIGINT, starting graceful shutdown...
+2025-10-25T04:13:30.778Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-25T04:13:32.466Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T04:13:32.470Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-01.oissf.mongodb.net
+2025-10-25T04:13:32.473Z [INFO] [req:unknown] 🚀 Server running in development mode on port 3000
+2025-10-25T04:19:30.383Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 04:19:30 GMT] "POST /api/v1/uploads/sessions HTTP/1.1" 201 605 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T04:22:38.524Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-25T04:22:43.890Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T04:22:43.894Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-01.oissf.mongodb.net
+2025-10-25T04:22:43.897Z [INFO] [req:unknown] 🚀 Server running in development mode on port 3000
+2025-10-25T04:22:56.286Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 04:22:56 GMT] "POST /api/v1/uploads/sessions HTTP/1.1" 201 605 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T04:24:56.968Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-25T04:24:58.706Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T04:24:58.708Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-00.oissf.mongodb.net
+2025-10-25T04:24:58.710Z [INFO] [req:unknown] 🚀 Server running in development mode on port 3000
+2025-10-25T04:27:38.241Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 04:27:38 GMT] "POST /api/v1/uploads/sessions HTTP/1.1" 500 102 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T04:29:12.746Z [WARN] [req:unknown] Received SIGINT, starting graceful shutdown...
+2025-10-25T04:29:20.035Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-25T04:29:21.683Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T04:29:21.686Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-00.oissf.mongodb.net
+2025-10-25T04:29:21.687Z [INFO] [req:unknown] 🚀 Server running in development mode on port 3000
+2025-10-25T04:29:28.475Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 04:29:28 GMT] "POST /api/v1/uploads/sessions HTTP/1.1" 500 102 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T04:34:01.990Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-25T04:34:03.653Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T04:34:03.655Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-00.oissf.mongodb.net
+2025-10-25T04:34:03.656Z [INFO] [req:unknown] 🚀 Server running in development mode on port 3000
+2025-10-25T04:34:22.683Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-25T04:34:24.556Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T04:34:24.558Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-00.oissf.mongodb.net
+2025-10-25T04:34:24.560Z [INFO] [req:unknown] 🚀 Server running in development mode on port 3000
+2025-10-25T04:34:44.664Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 04:34:44 GMT] "POST /api/v1/uploads/sessions HTTP/1.1" 500 102 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T04:36:41.276Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-25T04:36:43.375Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T04:36:43.376Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-02.oissf.mongodb.net
+2025-10-25T04:36:43.378Z [INFO] [req:unknown] 🚀 Server running in development mode on port 3000
+2025-10-25T04:36:53.244Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 04:36:53 GMT] "POST /api/v1/uploads/sessions HTTP/1.1" 201 618 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T04:42:13.547Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-25T04:42:16.119Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T04:42:16.122Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-02.oissf.mongodb.net
+2025-10-25T04:42:16.125Z [INFO] [req:unknown] 🚀 Server running in development mode on port 3000
+2025-10-25T04:42:27.408Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 04:42:27 GMT] "POST /api/v1/uploads/sessions HTTP/1.1" 201 636 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T04:46:56.595Z [ERROR] [req:unknown] ❌ Path: /api/v1/uploads/sessions/028e60ae-bbf1-4496-ab7c-1ecc49613999/complete | Error: Body cannot be empty when content-type is set to 'application/json'
+2025-10-25T04:46:56.600Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 04:46:56 GMT] "POST /api/v1/uploads/sessions/028e60ae-bbf1-4496-ab7c-1ecc49613999/complete HTTP/1.1" 500 120 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T04:47:56.032Z [WARN] [req:unknown] ⚠️ Mongoose connection is disconnected.
+2025-10-25T04:47:56.668Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T04:49:56.824Z [WARN] [req:unknown] 404 Not Found - Path: /api/v1/uploads/sessions/028e60ae-bbf1-4496-ab7c-1ecc49613999/complete
+2025-10-25T04:49:56.827Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 04:49:56 GMT] "POST /api/v1/uploads/sessions/028e60ae-bbf1-4496-ab7c-1ecc49613999/complete HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T05:06:36.790Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 05:06:36 GMT] "PUT /api/v1/uploads/sessions/028e60ae-bbf1-4496-ab7c-1ecc49613999/complete HTTP/1.1" 200 52 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T05:12:52.202Z [WARN] [req:unknown] [requireAuth] Unauthorized: No token provided for path: /api/v1/jobs
+2025-10-25T05:12:52.205Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 05:12:52 GMT] "POST /api/v1/jobs HTTP/1.1" 401 62 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T05:13:17.561Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-25T05:13:19.219Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T05:13:19.223Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-02.oissf.mongodb.net
+2025-10-25T05:13:19.226Z [INFO] [req:unknown] 🚀 Server running in development mode on port 3000
+2025-10-25T05:13:34.455Z [INFO] [req:unknown] Created job: jobId=8cb68524-29d3-42f4-b9b4-01495d62559b, sessionId=028e60ae-bbf1-4496-ab7c-1ecc49613999, objectKey=uploads/028e60ae-bbf1-4496-ab7c-1ecc49613999/final.pdf, formats=[{"format":"docx"}]
+2025-10-25T05:13:34.467Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 05:13:34 GMT] "POST /api/v1/jobs HTTP/1.1" 500 122 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T05:18:42.463Z [INFO] [req:unknown] Attempting to connect to RabbitMQ (attempt 1/5)...
+2025-10-25T05:18:42.538Z [ERROR] [req:unknown] RabbitMQ connection failed (attempt 1/5):
+2025-10-25T05:18:44.422Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-25T05:18:46.810Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T05:18:46.815Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-02.oissf.mongodb.net
+2025-10-25T05:18:46.817Z [INFO] [req:unknown] 🚀 Server running in development mode on port 3000
+2025-10-25T05:18:47.552Z [INFO] [req:unknown] Attempting to connect to RabbitMQ (attempt 2/5)...
+2025-10-25T05:18:47.559Z [ERROR] [req:unknown] RabbitMQ connection failed (attempt 2/5):
+2025-10-25T05:18:52.564Z [INFO] [req:unknown] Attempting to connect to RabbitMQ (attempt 3/5)...
+2025-10-25T05:18:52.567Z [ERROR] [req:unknown] RabbitMQ connection failed (attempt 3/5):
+2025-10-25T05:18:57.583Z [INFO] [req:unknown] Attempting to connect to RabbitMQ (attempt 4/5)...
+2025-10-25T05:18:57.589Z [ERROR] [req:unknown] RabbitMQ connection failed (attempt 4/5):
+2025-10-25T05:19:02.599Z [INFO] [req:unknown] Attempting to connect to RabbitMQ (attempt 5/5)...
+2025-10-25T05:19:02.605Z [ERROR] [req:unknown] RabbitMQ connection failed (attempt 5/5):
+2025-10-25T05:19:02.607Z [ERROR] [req:unknown] Max retries reached. RabbitMQ connection failed.
+2025-10-25T05:19:02.608Z [ERROR] [req:unknown] Error: Failed to connect to RabbitMQ after maximum retries
+    at connectRabbit (file:///C:/Users/Administrator/Desktop/New%20folder/PdfConverterFinalSingleSimpleBackend/src/Utils/lavinmqclient.js:24:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-10-25T05:19:02.611Z [ERROR] [req:unknown] Error: Failed to connect to RabbitMQ after maximum retries
+    at connectRabbit (file:///C:/Users/Administrator/Desktop/New%20folder/PdfConverterFinalSingleSimpleBackend/src/Utils/lavinmqclient.js:24:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-10-25T05:19:02.613Z [INFO] [req:unknown] Starting cleanup process...
+2025-10-25T05:19:02.623Z [INFO] [req:unknown] Fastify server closed.
+2025-10-25T05:19:02.640Z [WARN] [req:unknown] ⚠️ Mongoose connection is disconnected.
+2025-10-25T05:19:02.641Z [INFO] [req:unknown] Mongoose disconnected.
+2025-10-25T05:19:02.646Z [INFO] [req:unknown] MongoStore client disconnected.
+2025-10-25T05:19:02.647Z [INFO] [req:unknown] All connections closed successfully.
+2025-10-25T05:19:02.648Z [INFO] [req:unknown] Emergency cleanup completed.
+2025-10-25T05:20:03.075Z [INFO] [req:unknown] Attempting to connect to RabbitMQ (attempt 1/5)...
+2025-10-25T05:20:07.166Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-25T05:20:07.315Z [INFO] [req:unknown] RabbitMQ connected and channels created
+2025-10-25T05:20:11.364Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T05:20:11.369Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-01.oissf.mongodb.net
+2025-10-25T05:20:11.371Z [INFO] [req:unknown] 🚀 Server running in development mode on port 3000
+2025-10-25T05:20:21.336Z [INFO] [req:unknown] Created job: jobId=3c66ea56-5b41-4d43-8e5e-14ba8667ecf5, sessionId=028e60ae-bbf1-4496-ab7c-1ecc49613999, objectKey=uploads/028e60ae-bbf1-4496-ab7c-1ecc49613999/final.pdf, formats=[{"format":"docx"}]
+2025-10-25T05:20:21.347Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 05:20:21 GMT] "POST /api/v1/jobs HTTP/1.1" 500 91 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T05:20:55.567Z [INFO] [req:unknown] Attempting to connect to RabbitMQ (attempt 1/5)...
+2025-10-25T05:20:57.943Z [INFO] [req:unknown] RabbitMQ connected and channels created
+2025-10-25T05:20:58.086Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-25T05:21:03.674Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T05:21:03.678Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-02.oissf.mongodb.net
+2025-10-25T05:21:03.680Z [INFO] [req:unknown] 🚀 Server running in development mode on port 3000
+2025-10-25T05:21:12.081Z [INFO] [req:unknown] Created job: jobId=717d9b58-60de-4461-a44d-af6f203fae3a, sessionId=028e60ae-bbf1-4496-ab7c-1ecc49613999, objectKey=uploads/028e60ae-bbf1-4496-ab7c-1ecc49613999/final.pdf, formats=[{"format":"docx"}]
+2025-10-25T05:21:12.092Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 05:21:12 GMT] "POST /api/v1/jobs HTTP/1.1" 500 109 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T05:24:55.051Z [INFO] [req:unknown] Attempting to connect to RabbitMQ (attempt 1/5)...
+2025-10-25T05:24:57.903Z [INFO] [req:unknown] RabbitMQ connected and channels created
+2025-10-25T05:24:59.552Z [INFO] [req:unknown] MongoClient connected for sessions.
+2025-10-25T05:25:01.854Z [INFO] [req:unknown] ✅ Mongoose connected to DB
+2025-10-25T05:25:01.858Z [INFO] [req:unknown] 📦 MongoDB Connected: cluster0-shard-00-01.oissf.mongodb.net
+2025-10-25T05:25:01.861Z [INFO] [req:unknown] 🚀 Server running in development mode on port 3000
+2025-10-25T05:26:57.562Z [INFO] [req:unknown] Created job: jobId=2cb60dd4-24ce-44f5-8ed0-0f3546295f54, sessionId=028e60ae-bbf1-4496-ab7c-1ecc49613999, objectKey=uploads/028e60ae-bbf1-4496-ab7c-1ecc49613999/final.pdf, formats=[{"format":"docx"}]
+2025-10-25T05:26:57.576Z [HTTP] [req:unknown] 127.0.0.1 - - [Sat, 25 Oct 2025 05:26:57 GMT] "POST /api/v1/jobs HTTP/1.1" 202 111 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.2506"
+2025-10-25T06:21:48.398Z [WARN] [req:unknown] Received SIGINT, starting graceful shutdown...

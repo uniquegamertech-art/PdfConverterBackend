@@ -1,0 +1,48 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model UploadSession {
+  id        String   @id @default(uuid())
+  objectKey String
+  size      Int
+  status    String
+  createdAt DateTime @default(now())
+  jobs      Job[]    @relation("SessionJobs")
+}
+
+model Job {
+  id         String      @id @default(uuid())
+  sessionId  String
+  session    UploadSession @relation("SessionJobs", fields: [sessionId], references: [id])
+  status     String
+  outputs    String      // JSON-encoded outputs array
+  createdAt  DateTime    @default(now())
+  startedAt  DateTime?
+  finishedAt DateTime?
+  results    JobResult[]
+  logs       JobLog[]
+}
+
+model JobResult {
+  id        String   @id @default(uuid())
+  jobId     String
+  job       Job      @relation(fields: [jobId], references: [id])
+  outputKey String   // s3 key or path to result
+  meta      String?  // JSON or small metadata
+  createdAt DateTime @default(now())
+}
+
+model JobLog {
+  id        String   @id @default(uuid())
+  jobId     String
+  job       Job      @relation(fields: [jobId], references: [id])
+  level     String
+  message   String
+  createdAt DateTime @default(now())
+}
