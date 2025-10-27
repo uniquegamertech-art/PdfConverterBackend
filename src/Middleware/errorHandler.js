@@ -32,6 +32,7 @@ const errorHandler = async (error, request, reply) => {
   logger.error(`❌ Path: ${request.url} | Error: ${error.message}`, {
     error,
     requestId,
+    stack: error.stack,
   });
 
   if (error instanceof SyntaxError && "body" in error) {
