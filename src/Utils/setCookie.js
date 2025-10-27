@@ -1,20 +1,23 @@
-// In Utils/setCookie.js (or wherever it is)
+// Utils/setCookie.js
 import { oneHourFromNow, thirtyDaysFromNow } from "./date.js";
 
-const defaults = {
-  sameSite: 'none',
+const isProd = process.env.NODE_ENV === "production";
+
+export const cookieDefaults = {
+  sameSite: "none",        // MUST be 'none' for cross-site cookies
   httpOnly: true,
-  secure: true,
-  path: '/',  // Add this here to override browser default
+  secure: true,          // true in production (HTTPS); false in dev (localhost)
+  path: "/",               // ensure same path when clearing
+  // domain: process.env.COOKIE_DOMAIN || undefined, // optionally set if you need it for subdomains
 };
 
 const getAccessTokenCookieOptions = () => ({
-  ...defaults,
+  ...cookieDefaults,
   expires: oneHourFromNow(),
 });
 
 const getRefreshTokenCookieOptions = () => ({
-  ...defaults,
+  ...cookieDefaults,
   expires: thirtyDaysFromNow(),
 });
 

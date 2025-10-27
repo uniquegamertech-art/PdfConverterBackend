@@ -4,7 +4,7 @@ import { VerificationCodeModel } from "../Models/verificationCode.model.js";
 import verificationCodeType from "../Constants/verificationCodeType.js";
 import { oneHourFromNow } from "../Utils/date.js";
 import { signAccessToken, signRefreshToken } from "../Utils/generateTokens.js";
-import { setCookies } from "../Utils/setCookie.js";
+import { setCookies,cookieDefaults } from "../Utils/setCookie.js";
 import { sendVerificationEmail, sendWelcomeEmail, sendPasswordResetEmail, sendResetSuccessEmail } from "../mailtrap/emails.js";
 import { ResetCode } from "../Models/resetCode.model.js";
 import { verifyRefreshToken } from "../Utils/verifyTokens.js";
@@ -336,23 +336,13 @@ export const logout = async (request, reply) => {
             const expiresInSec = decoded?.exp ? decoded.exp - Math.floor(Date.now() / 1000) : 60 * 60 * 24 * 30;
             await redisClient.setex(`bl_rt:${refreshToken}`, expiresInSec, "blacklisted");
           }
-          reply.clearCookie("AccessToken", {
-            sameSite: "strict",
-            httpOnly: true,
-            secure: process.env.NODE_ENV === "production"
-          });
+          const clearOpts = {
+            ...cookieDefaults,
+          };
+          reply.clearCookie("AccessToken", clearOpts);
 
-          reply.clearCookie("RefreshToken", {
-            sameSite: "strict",
-            httpOnly: true,
-            secure: process.env.NODE_ENV === "production"
-          });
-          reply.clearCookie("connect.sid", {
-            httpOnly: true,
-            secure: process.env.NODE_ENV === "production",
-            sameSite: "strict",
-            path: "/",
-          });
+          reply.clearCookie("RefreshToken", clearOpts);
+          reply.clearCookie("sessionId", clearOpts); // if you set this cookie
           reply.code(200).send({
             success: true,
             message: "Logout successful",

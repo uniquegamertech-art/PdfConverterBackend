@@ -32,14 +32,46 @@ import sensible from "fastify-sensible"; // Corrected import
 
 import pdfRouter from "./Routers/pdf.router.js";
 
-
+const FRONTEND_URL = process.env.CLIENT_URL || "https://pdf-converter-frontend-three.vercel.app";
+const allowedOrigins = [
+  FRONTEND_URL,
+  "http://localhost:5173",
+  "http://127.0.0.1:5173",
+];
 
 const app = fastify({
   logger: false,
   trustProxy: 1,
 });
+await app.register(cors, {
+  origin: (origin, cb) => {
+    // allow non-browser requests (curl, server-to-server) where origin is undefined
+    if (!origin) return cb(null, true);
+    if (allowedOrigins.includes(origin)) return cb(null, true);
+    cb(new Error("Not allowed by CORS"));
+  },
+  credentials: true,               // allow cookies
+  methods: ["GET","POST","PUT","DELETE","OPTIONS"],
+  allowedHeaders: ["Content-Type","Authorization","X-Requested-With"],
+  exposedHeaders: ["Set-Cookie","Authorization"], // expose set-cookie if needed
+  preflight: true,
+  maxAge: 86400,
+});
+app.addHook("onSend", async (request, reply, payload) => {
+  const origin = request.headers.origin;
+  if (origin && allowedOrigins.includes(origin)) {
+    // only set if not already present
+    if (!reply.getHeader("access-control-allow-origin")) {
+      reply.header("Access-Control-Allow-Origin", origin);
+    }
+    if (!reply.getHeader("access-control-allow-credentials")) {
+      reply.header("Access-Control-Allow-Credentials", "true");
+    }
+  }
+  return payload;
+});
 const mongoUrl = config.MONGO_URL;
-if (process.NODE_ENV === "development") {
+if (process.env.NODE_ENV === "development") {
   logger.debug("Running in development mode");
 }
 
@@ -63,26 +95,9 @@ app.addHook("onResponse", (request, reply, done) => {
 });
 await app.register(helmet);
 await app.register(sensible);
-/* await app.register(cors, {
-  origin: (origin, callback) => {
-    const allowedOrigins = [
-      "http://localhost:5173",
-      "http://127.0.0.1:5173",  // Add this exact match
-      "http://localhost:8080",
-      "http://127.0.0.1:8080"   // If using the other port
-    ];
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"],
-  credentials: true,
-  // Add if needed for cookies/auth responses
-  exposedHeaders: ["Set-Cookie", "Authorization"],
-}); */
+
+
+
 await app.register(rateLimit, {
   timeWindow: 15 * 60 * 1000,
   max: 100,
