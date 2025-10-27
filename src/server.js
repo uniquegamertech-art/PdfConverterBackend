@@ -63,26 +63,23 @@ app.addHook("onResponse", (request, reply, done) => {
 });
 await app.register(helmet);
 await app.register(sensible);
-/* await app.register(cors, {
+const allowedOrigins = [
+  process.env.CLIENT_URL, // set VITE_FRONTEND_URL or FRONTEND_URL in your production env e.g. https://pdf-converter-frontend-three.vercel.app
+  "http://localhost:5173",
+  "http://127.0.0.1:5173",
+];
+
+await app.register(cors, {
   origin: (origin, callback) => {
-    const allowedOrigins = [
-      "http://localhost:5173",
-      "http://127.0.0.1:5173",  // Add this exact match
-      "http://localhost:8080",
-      "http://127.0.0.1:8080"   // If using the other port
-    ];
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
+    if (!origin) return callback(null, true); // allow non-browser requests (curl, mobile)
+    if (allowedOrigins.includes(origin)) return callback(null, true);
+    callback(new Error("Not allowed by CORS"));
   },
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  methods: ["GET","POST","PUT","DELETE","OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
-  // Add if needed for cookies/auth responses
-  exposedHeaders: ["Set-Cookie", "Authorization"],
-}); */
+  exposedHeaders: ["Set-Cookie", "Authorization"]
+});
 await app.register(rateLimit, {
   timeWindow: 15 * 60 * 1000,
   max: 100,
